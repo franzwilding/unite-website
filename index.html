@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unite – Software Development GmbH</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: #fafafa;
+            color: rgb(55, 56, 63);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 3rem;
+        }
+
+        .logo img {
+            max-width: 120px;
+            height: auto;
+        }
+
+        .info-section {
+            background: white;
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 2px 12px rgba(55, 56, 63, 0.08);
+        }
+
+        .company-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .address {
+            margin-bottom: 2rem;
+            color: rgb(55, 56, 63);
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, rgba(55, 56, 63, 0.15), transparent);
+            margin: 1.5rem 0;
+        }
+
+        .contact-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: rgba(55, 56, 63, 0.5);
+            margin-bottom: 0.25rem;
+        }
+
+        .email a {
+            color: rgb(55, 56, 63);
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s ease;
+        }
+
+        .email a:hover {
+            opacity: 0.7;
+        }
+
+        .legal {
+            margin-top: 2rem;
+            font-size: 0.875rem;
+            color: rgba(55, 56, 63, 0.7);
+        }
+
+        .legal p {
+            margin-bottom: 0.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="unite Logo">
+        </div>
+
+        <div class="info-section">
+            <p class="company-name">unite – Software Development GmbH</p>
+            <p class="address">
+                Europaplatz 2/1/2<br>
+                1150 Wien
+            </p>
+
+            <div class="divider"></div>
+
+            <p class="contact-label">E-Mail</p>
+            <p class="email">
+                <a href="mailto:office@unite.co.at">office@unite.co.at</a>
+            </p>
+
+            <div class="divider"></div>
+
+            <div class="legal">
+                <p>Firmenbuchnummer: 486860x</p>
+                <p>UID-Nr.: ATU73146348</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
